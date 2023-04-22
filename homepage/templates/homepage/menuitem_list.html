@@ -1,0 +1,14 @@
+{% extends './base.html' %} {% block content %}
+<h3>Our Menu</h3>
+<ol class="mt-5">
+  {% for product in menuitem_list %}
+
+  <h5>
+    <a href="{{product.id}}"> {{product.name}} </a>
+  </h5>
+
+  <p>$ {{product.price}}</p>
+
+  {% endfor %}
+</ol>
+{% endblock content %}

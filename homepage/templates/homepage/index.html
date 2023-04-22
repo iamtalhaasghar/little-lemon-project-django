@@ -1,0 +1,93 @@
+{% extends './base.html' %} {% load static %} {% block content %}
+<main>
+  <div class="row">
+    <div class="col text-justify">
+      <h3 class="text-center mb-3">The Taste you deserve!</h3>
+      <p>
+        Little Lemon restaurant is a popular eatery located in the heart of
+        downtown. The restaurant is known for its fresh and flavorful dishes,
+        which are made from locally-sourced ingredients. The menu features a
+        variety of options, including vegetarian and gluten-free dishes.
+        Customers rave about the friendly and attentive service, as well as the
+        cozy and welcoming atmosphere. With its reasonable prices and
+        high-quality food, Little Lemon is a must-visit for anyone looking for a
+        delicious and satisfying meal.
+      </p>
+      <div class="d-flex justify-content-end">
+        <button class="btn btn-outline-dark">Discover more</button>
+      </div>
+    </div>
+    <div class="col">
+      <img
+        src="{% static 'homepage/pizza.jpg' %}"
+        alt="Ring background"
+        class="rounded"
+        width="500px"
+      />
+    </div>
+  </div>
+  {% comment %}
+  <div class="row mt-5">
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="patty-zavala-SniDFooLoow-unsplash.jpg"
+          alt="necklace"
+          class="card-img-top"
+        />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Necklace</h5>
+          <p class="card-text">
+            Our collection of necklaces features a wide variety of styles, from
+            delicate chains to bold statement pieces. Whether you're looking for
+            something simple and elegant or a showstopping accessory, we have
+            the perfect necklace for you.
+          </p>
+          <button class="btn btn-dark mt-auto">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="sabrianna-2z7MxnXQs3k-unsplash.jpg"
+          alt="Bracelet image"
+          class="card-img-top"
+        />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Bracelets</h5>
+          <p class="card-texth">
+            Our collection of bracelets includes a variety of styles, from
+            simple and understated to bold and eye-catching. Choose from classic
+            chain bracelets, delicate bangles, or statement cuffs to add a touch
+            of elegance to any outfit. Our bracelets are the perfect accessory
+            for adding a pop of color or sparkle to your look.
+          </p>
+          <button class="btn btn-dark mt-auto">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img
+          src="andrew-hutchings-Asngw4A5_tM-unsplash.jpg"
+          alt="earrings"
+          class="card-img-top"
+        />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">
+            Add a touch of glamour to your look with our stunning earrings. From
+            classic studs to dramatic drop earrings, our collection offers a
+            range of styles to suit any occasion. Whether you're dressing up for
+            a night out or adding a touch of sparkle to your everyday look, our
+            earrings are sure to impress.
+          </p>
+          <button class="btn btn-dark mt-auto">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endcomment %}
+</main>
+{% endblock content %}

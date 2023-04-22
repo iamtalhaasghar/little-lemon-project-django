@@ -1,0 +1,9 @@
+{% extends './base.html' %} {% block content %}
+<h3>Menu Item</h3>
+
+<h4 class="mt-5">{{menuitem.name}}</h4>
+
+<p class="mt-3">{{menuitem.description}}</p>
+<p>Price: ${{menuitem.price}}</p>
+
+{% endblock content %}

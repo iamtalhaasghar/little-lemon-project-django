@@ -1,0 +1,9 @@
+.env
+node_modules/
+package-lock.json
+
+.idea
+venv
+__pycache__
+db.sqlite3
+.vscode
